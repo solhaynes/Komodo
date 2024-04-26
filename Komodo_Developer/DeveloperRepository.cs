@@ -1,4 +1,4 @@
-namespace Developer.Repository;
+namespace Repository;
 
 public class DeveloperRepository
 {

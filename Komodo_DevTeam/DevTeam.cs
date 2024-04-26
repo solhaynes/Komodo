@@ -1,11 +1,12 @@
-﻿namespace Developer.Repository;
-namespace DevTeam.Repository;
+﻿namespace Repository;
 
 public class DevTeam
 { 
   public List<Developer> DeveloperList { get; set; }
   public string TeamName { get; set; }
   public int TeamID { get; set; }
+
+  public DevTeam(){}
 
   // POCO
   public DevTeam(List<Developer> devList, string teamName, int teamID)

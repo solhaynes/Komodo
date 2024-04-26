@@ -1,4 +1,4 @@
-namespace DevTeam.Repository;
+namespace Repository;
 
 public class DevTeamRepository 
 {
@@ -65,7 +65,7 @@ public class DevTeamRepository
   {
     foreach(DevTeam team in _listOfDevTeams)
     {
-      if(team.ID == id)
+      if(team.TeamID == id)
       {
         return team;
       }
